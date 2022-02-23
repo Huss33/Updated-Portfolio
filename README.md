@@ -21,7 +21,7 @@ GitHub link: https://github.com/Huss33/Updated-Portfolio
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Huss33/Project_2_uofm/blob/main/public/images/CaptureForReal.JPG)
+![App Screenshot](https://github.com/Huss33/Updated-Portfolio/blob/main/assets/Updated%20Portfolio%20Snippet.JPG)
 
 
 ## Roadmap
