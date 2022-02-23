@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Portfolio Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" crossorigin="anonymous" />
+    <!--Update with my own fonts-->
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+<body>
+    <header>
+        <!-- <div class="logo">
+            <img src="./assets/Picture of me.jpg" alt="My Profile Picture">
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contact Me</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Alexander Huss</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+        <img src="./assets/Picture of me.jpg" alt="My profile picture" class="intro__img">
+    </section>
+    <a href="#work" class="btn">My Work</a>
+    <a href="#contacts" class="btn">Contact Me</a>
+    <a href="#resume" class="btn">Resume</a>
+
+<!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Minnesota (Twin Cities) based designer and developer</p>
+        
+        <div class="about-me__body">
+            <p>
+                Currently Alex is attending a coding bootcamp through the University of Minnesota. I am somewhat new to 
+               coding but not new to computers. I am very familiar with the interworkings of computers, having built my 
+               own in December of 2020. I enjoyed building my computer so much so, that it inspired me to learn more 
+               about how to use a computer to it's fullest and build a career out of it. I plan to continue my education
+               after graduating from this bootcamp, by taking the full month of free courses offered by the University.
+               From there I will have some investigating to do, but I have no doubt that there is a wealth of knowledge
+               waiting for me out there. As for what I have done so far? I have included below some of my favorite 
+               projects and activities to browse. 
+            </p>
+            <p>
+                Current info, current education or job, current projects or work, Alex was born in St. Paul, Minnesota and after 
+               moving around the Twin Cities quite a bit over the last 20 years, has finally landed in Edina, Minnesota where
+               he has been for the last five years. (This section is unfinished) 
+            </p>
+        </div>
+
+        <img src="./assets/Picture of me.jpg" alt="Second image of me" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!--portfolio item 01-->
+            <a href="https://leodickenson.github.io/Project_1_uofm/" class="portfolio__item">
+                <img src="./assets/ScreenShot.JPG" alt="Bands and Brews app">
+            </a>
+            <!--portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="./assets/CSS Cheatsheet.png" alt="CSS Snippet Cheatsheet">
+            </a>
+            <a href="#home" class="btn">Back to the Top</a>
+            <!--portfolio item 03-->
+            <a href="https://huss33.github.io/Password-Generator/" class="portfolio__item">
+                <img src="./assets/Password Generator Snippet.JPG" alt="Password-Generator">
+            </a>
+            <!--portfolio item 04-->
+            <a href="https://watch.screencastify.com/v/i0YiOzJUx4YcRUWqxZUv" class="portfolio__item">
+                <img src="./assets/E-Comerce-Back-End Snippet.JPG" alt="E-Comerce-Back-End"><p>GitHub Direct Link: https://github.com/Huss33/E-Comerce-Back-End</p>
+            </a>
+            <!--portfolio item 05-->
+            <!-- <a href="#" class="portfolio__item">
+                <img src="./assets/placeholder.png" alt="Placeholder image">
+            </a> -->
+        </div>
+    </section>
+
+    <div class="my-work">
+        <a href="#home" class="btn">Back to the Top</a>
+    </div>
+
+    <section class="contact-me" id="contacts">
+        <div class="contacts">
+            <h2 class="section__title section__title--contacts" style="color: white;">Contact Me</h2>
+            <div class="contact">
+                <h3>Phone Number</h3>
+                <a href="phone#" style="color: var(--clr-accent);"><i class="fas fa-phone-square-alt"></i><p>(651)-343-6836</p></a>
+            </div> <!--/ service -->
+
+            <div class="contact">
+                <h3>Email</h3>
+                <a href="email" style="color: var(--clr-accent);"><i class="far fa-envelope"></i><p>ahuss2010@live.com</p></a>
+            </div> <!--/ service -->
+
+            <div class="contact">
+                <h3>GitHub</h3>
+                <a href="github" style="color: var(--clr-accent);"><i class="fab fa-github"></i><p>https://github.com/Huss33</p></a>
+            </div> <!--/ service -->
+
+            <div class="contact">
+                <h3>LinkedIn</h3>
+                <a href="linkedin" style="color: var(--clr-accent);"><i class="fab fa-linkedin"></i><p>https://www.linkedin.com/in/alexander-huss-8bba5910b/</p>
+            </div> <!--/ service -->
+
+            <!-- <div class="contact">
+                <h3>Spotify</h3>
+                <i class="fab fa-spotify"></i><p style="color: var(--clr-accent);">N/A</p> -->
+            </div> <!--/ service -->
+        </div> <!--/ services-->
+    </section>
+
+    <script src="./assets/index,.js"></script>
+</body>
+</html>
