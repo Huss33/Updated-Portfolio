@@ -15,7 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #16e053;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -95,6 +95,10 @@ h3 {
 h1 { font-size: var(--fs-h1)}
 h2 { font-size: var(--fs-h2)}
 h3 { font-size: var(--fs-h3)}
+
+h3 {
+    color: var(--clr-accent);
+}
 
 .section__title {
     margin-bottom: .25;
@@ -358,6 +362,18 @@ h3 { font-size: var(--fs-h3)}
 
 .portfolio {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio p {
+    color: var(--clr-accent);
+}
+
+.portfolio h3 {
+    float: left;
+}
+
+.portfolio .btn {
+    align-items: center;
 }
 
 .portfolio__item {
