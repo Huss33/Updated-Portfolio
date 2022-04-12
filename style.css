@@ -77,6 +77,12 @@ strong {font-weight: var(--fw-bold);}
     letter-spacing: 2px;
     font-weight: bold;
     transition: transform 200ms ease-in-out;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.homeBtn {
+    border: 2px solid whitesmoke;
 }
 
 .btn:hover {
@@ -138,10 +144,6 @@ h3 {
     padding: 1em
 }
 
-/* .logo {
-    max-width: 100px;
-} */
-
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -170,7 +172,7 @@ h3 {
 .nav__link {
     columns: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     text-decoration: none;
 }
 
@@ -212,6 +214,7 @@ h3 {
 .hamburger {
     display: block;
     position: relative;
+    cursor: pointer;
 }
 
 .hamburger,
@@ -285,6 +288,10 @@ h3 {
     color: var(--clr-light);
     padding: 50px;
     text-align: center;
+}
+
+.contacts a {
+    font-size: 25px;
 }
 
 .section__title--contacts {
@@ -374,6 +381,8 @@ h3 {
 
 .portfolio .btn {
     align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 .portfolio__item {
@@ -395,6 +404,10 @@ h3 {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .75;
+}
+
+a {
+    margin: 20px;
 }
 
 
